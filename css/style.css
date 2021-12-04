@@ -115,7 +115,7 @@ a{
 
 .img-principal {
   width: 855px;
-  animation: apareciendo 1s ease;  
+  animation: apareceDerecha_01 2.5s ease;  
 }
 
 .red-gum {
