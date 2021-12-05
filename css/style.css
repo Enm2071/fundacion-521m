@@ -201,10 +201,6 @@ a{
   width: 70%;
 }
 
-.impact-setion {
-  padding: 10rem;
-}
-
 .impact-bg {
   background-color: var(--main-color);
   font-family: "Roboto", sans-serif;
@@ -756,7 +752,7 @@ body > footer > div > div:nth-child(3) > strong > div ul li {
     padding: 10px;
 }
   .red-gum {
-    top: -12%;
+    top: 5%;
   }
 
   .info-bg .container{
