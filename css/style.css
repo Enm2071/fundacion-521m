@@ -717,11 +717,6 @@ body > footer > div > div:nth-child(3) > strong > div ul li {
 }
 
 /* RESPONSIVE */
-@media (max-width: 1390px) {
-  .forma-parte img {
-    display: none;
-  }
-}
 
 @media only screen and (min-width: 600px) {
   .img-principal {
@@ -742,7 +737,6 @@ body > footer > div > div:nth-child(3) > strong > div ul li {
 
   .mobile-only {
     display: inline-block;
-    
   }
 
   .section-padding .info {
@@ -898,5 +892,17 @@ body > footer > div > div:nth-child(3) > strong > div ul li {
   .card-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .img-principal {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1390px) {
+  .forma-parte img {
+    display: none;
   }
 }
