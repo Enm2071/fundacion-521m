@@ -188,7 +188,7 @@ a{
   padding: 33px;
   box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
   border-radius: 25px;
-  height: 18rem;
+  height: 20rem;
 }
 
 .section-objetivos .card img {
@@ -299,21 +299,6 @@ a{
   margin-right: 1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.letter-white {
-  color: var(--black-000) !important;
-}
-
 .btn-1:focus {
   box-shadow: var(--shadow-black-300);
 }
@@ -371,7 +356,7 @@ a{
 }
 
 .home {
-  min-height: 50vh;
+  height: 50vh;
   /* padding: 150px 0; */
   background-color: var(--main-to-dark-color);
   position: relative;
@@ -713,6 +698,10 @@ body > footer > div > div:nth-child(3) > strong > div ul li {
 }
 
 @media (max-width: 991px) {
+  .home {
+    height: 67vh;
+  }
+
   .section-objetivos .card-body{
     width: 70%;
   }
@@ -757,13 +746,17 @@ body > footer > div > div:nth-child(3) > strong > div ul li {
   .fono-logo {
     display: none;
   }
-
+  .text-container-w h1 {
+    font-size: 1.5rem;
+  }
   .componentes .container .row strong {
     font-size: 16px;
   }
-  
+  .section-padding {
+    padding: 10px;
+}
   .red-gum {
-    top: 10%;
+    top: -12%;
   }
 
   .info-bg .container{
@@ -777,7 +770,7 @@ body > footer > div > div:nth-child(3) > strong > div ul li {
   }
 
   .titulo {
-    font-size: 4.9rem !important;
+    font-size: 2rem !important;
     text-align: left;
     font-family: "Roboto", sans-serif;
     color: var(--main-color);
