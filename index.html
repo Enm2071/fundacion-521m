@@ -78,24 +78,23 @@
   <!-- end navbar -->
 
   <!-- Start Home -->
-  <section class="home pt-md-3 d-flex align-items-center">
-    <div class="container">
+  <section class="home p-3 d-flex align-items-center">
+    <div class="container-fluid">
       <div class="row align-items-center">
         <div class="col-lg-7 col-sm-12">
-          <div class="home-text">
-            <img src="./imgs/dhyc.png" alt="" srcset="">
-            <div class="home-btn">
-              <p>
-                <span><span class="font-weight-bold">Formar</span> a las personas |</span>
-                <span><span class="font-weight-bold">Ejercer</span> sus derechos |</span>
-                <span><span class="font-weight-bold">Transformar</span> la sociedad</span>
-              </p>
-            </div>
+          <div class="home-text text-md-center">
+            <img class="img-fluid" src="./imgs/dhyc.png" alt="" srcset="">
+            <p class="mt-3">
+              <span><span class="font-weight-bold">Formar</span> a las personas |</span>
+              <span><span class="font-weight-bold">Ejercer</span> sus derechos |</span>
+              <span><span class="font-weight-bold">Transformar</span> la sociedad</span>
+            </p>
           </div>
-          <a href="mailto:infoodo@dp.gob.do" class="bg-light text-primary font-weight-bold btn mt-3 pt-3 pb-3 pr-5 pl-5">Quiero saber más</a>
+          <div class="text-sm-center">
+            <a href="mailto:infoodo@dp.gob.do" class="bg-light text-primary font-weight-bold btn mt-3 pt-3 pb-3 pr-5 pl-5">Quiero saber más</a>
+          </div>
         </div>
-
-        <div class="col-md-5 cont-img-principal">
+        <div class="col-lg-5 col-md-12 cont-img-principal">
           <img class="img-principal" src="./imgs/imagen-principal.png" alt="">
         </div>
 
@@ -116,14 +115,15 @@
           <a href="https://defensordelpueblo.gob.do/" target="_blank">
             <img src="./imgs/defensor.png" alt="" srcset="">
           </a>
-          <a href="https://512.com.do/" target="_blank">
-            <img src="./imgs/512.png" alt="">
+          <a class="d-lg-inline d-md-block" href="https://512.com.do/" target="_blank">
+            <img class="d-md-block d-lg-block" src="./imgs/512.png" alt="">
           </a>
         </div>
       </div>
     </div>
     <img class="red-gum" src="./imgs/rectangle10.png" alt="" srcset="">
   </section>
+  
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-6 woman-reading"></div>
@@ -149,12 +149,12 @@
     <div class="container">
       <h1 class="titulo">Objetivos</h1>
       <!-- <h1 class="title-objetivos titulo"><strong>Objetivos</strong></h1> -->
-      <div class="row justify-content-center">
-        <div class="col-lg-4 col-md-12">
+      <div class="row">
+        <div class="mb-3 col-lg-4 col-md-12">
           <div class="card">
             <img class="card-img-top" src="./imgs/teacher.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title"><strong>Fortalecer los conocimientos</strong></h5>
+              <h5 class="card-title">Fortalecer los conocimientos</h5>
               <p class="card-text">
                 sobre derechos humanos en República Dominicana y su defensa según el marco legal
                 vigente.</p>
@@ -162,21 +162,21 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12">
+        <div class="mb-3 col-lg-4 col-md-12">
           <div class="card">
             <img class="card-img-top" src="./imgs/book.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title"><strong>Conectar en la práctica</strong></h5>
+              <h5 class="card-title">Conectar en la práctica</h5>
               <p class="card-text">la enseñanza y defensa de los derechos humanos.</p>
               <p class="card-text"></p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12">
+        <div class="mb-3 col-lg-4 col-md-12">
           <div class="card">
             <img class="card-img-top" src="./imgs/student.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title"><strong>Acercar la figura</strong></h5>
+              <h5 class="card-title">Acercar la figura</h5>
               <p class="card-text">del Defensor del Pueblo a las comunidades del país, promoviendo su máximo
                 aprovechamiento.</p>
               <p class="card-text"></p>
@@ -192,14 +192,14 @@
   <section class="features impact-setion impact-bg" id="Impacto">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-md-12 text-impact">
+        <div class="col-lg-4 col-md-12 text-impact mb-3">
           <h2 class="titulo"><strong>Impacto esperado</strong> </h2>
           <p>La transformación social y económica se logra a partir del fortalecimiento de la Educación, 
             de manera sostenida, coherente, partiendo de las necesidades del contexto y apegados a las 
             políticas locales y basados en costo-eficiencia que permita escalamiento. 
           </p>
         </div>
-        <div class="col-lg-8 col-md-12 slide-container">
+        <div class="col-lg-8 col-md-12 slide-container p-4">
           <div class="owl-carousel features-carousel">
             <div class="features-item">
               <div class="icon"><img src="./imgs/impact-book.png" alt="" srcset=""></div>
@@ -230,7 +230,7 @@
     <div class="container compo">
       <h1 class="titulo">Componentes del proyecto</h1>
       <div class="row">
-        <div class="col-6 sub-container">
+        <div class="col-lg-6 col-md-12 sub-container">
           <div class="item-container">
             <span class="d-block"><strong>Investigación y Evaluación</strong></span>
             <span>Diagnóstico de línea base, monitoreo de avances y resultados de la implementación,
@@ -250,7 +250,8 @@
             <span>Diseño e implementación de programas formativos </span>
           </div>
         </div>
-        <div class="col-6 sub-container">
+
+        <div class="col-lg-6 col-md-12 sub-container">
           <div class="item-container">
             <span class="d-block"><strong>Acompañamiento</strong></span>
             <span>Apoyo y seguimiento pertinente, continuo, cercano y oportuno a
@@ -407,11 +408,11 @@
                   <img src="./imgs/defensor-blanco.png" alt="" srcset="">
                 </a>
               </li>
-              <li><a class="text-light" target="_blank" href="">Facebook</a> </li>
-              <li><a class="text-light" target="_blank" href="">Instagram</a> </li>
-              <li><a class="text-light" target="_blank" href="">Youtube</a> </li>
-              <li><a class="text-light" href="#">Twitter</a> </li>
-              <li><a class="text-light" href="#">Página Web</a> </li>
+              <li><a class="text-light" target="_blank" href="https://www.facebook.com/DefensorRD">Facebook</a> </li>
+              <li><a class="text-light" target="_blank" href="https://www.instagram.com/defensorrd/">Instagram</a> </li>
+              <li><a class="text-light" target="_blank" href="https://www.youtube.com/channel/UCsDyWH2YnWrvCWJA_lFePTA">Youtube</a> </li>
+              <li><a class="text-light" target="_blank" href="https://twitter.com/DefensorRD">Twitter</a> </li>
+              <li><a class="text-light" target="_blank" href="https://defensordelpueblo.gob.do/">Página Web</a> </li>
             </ul>
           </div>
         </div>
@@ -426,15 +427,15 @@
               <li><a class="text-light" target="_blank" href="https://www.facebook.com/Instituto512">Facebook</a> </li>
               <li><a class="text-light" target="_blank" href="https://www.instagram.com/instituto512/">Instagram</a> </li>
               <li><a class="text-light" target="_blank" href="https://www.youtube.com/c/Instituto512">Youtube</a> </li>
-              <li><a class="text-light" href="#">Twitter</a> </li>
-              <li><a class="text-light" href="#">Página Web</a> </li>
+              <li><a class="text-light" target="_blank" href="./files/Revista_informa 512.pdf">Revista INFORMA</a> </li>
+              <li><a class="text-light" target="_blank" href="https://512.com.do/">Página Web</a> </li>
             </ul>
           </div>
         </div>
       </div>
       <hr>
       <div class="row">
-        <div class="col-md-12 col-lg-3">
+        <div class="col-md-12 col-lg-3 mb-3">
           <p class="text-light">Todos los derechos reservados <span id="year-now"></span></p>
         </div>
         <div class="col-md-12 col-lg-9">

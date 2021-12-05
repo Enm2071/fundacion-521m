@@ -31,11 +31,11 @@ $(document).ready(function () {
     //CAROUSEL FEATURES
     $('.features-carousel').owlCarousel({
         loop: true,
-        margin: 10,
+        margin: 20,
         responsiveClass: true,
         responsive: {
             // breakpoint from 0 up
-            0: {
+            200: {
                 items: 1,
             },
             // breakpoint from 480 up

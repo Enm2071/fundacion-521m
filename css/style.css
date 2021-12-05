@@ -1,7 +1,7 @@
 /*----------------------- 
     fonts
 ------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto:ital,wght@0,500;1,300&display=swap');
 
 /*----------------------- 
     global css
@@ -143,7 +143,7 @@ a{
 }
 
 .text-container-w{
-  width: 69%;
+  width: 90%;
   color: white;
 }
 
@@ -168,6 +168,14 @@ a{
   padding: 140px 0;
 }
 
+.card-title{
+  text-align: left;
+  font-size: 26.2789px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
 .titulo {
   color: var(--main-color);
   margin-bottom: 2rem;
@@ -184,7 +192,7 @@ a{
 }
 
 .section-objetivos .card img {
-  width: 60px;
+  width: 80px;
 }
 
 .section-objetivos .card-body {
@@ -278,7 +286,7 @@ a{
 
 .impact-bg .slide-container #customNextBtn {
   position: absolute;
-  right: 39px;
+  right: 15px;
   top: 40%;
   width: 30px;
   z-index: 10000;
@@ -438,10 +446,6 @@ section.home.d-flex.align-items-center
   animation: apareceDerecha_01 2.5s ease;
 }
 
-.home-text img {
-  width: 72%;
-}
-
 .info-bg {
   background-color: #f9f9f9;
 }
@@ -534,7 +538,7 @@ section.home.d-flex.align-items-center
   color: var(--main-color);
   font-weight: bold;
   align-items: center;
-  line-height: 79.69%;
+  line-height: 100%;
   margin-bottom: 4rem;
 }
 
@@ -701,8 +705,6 @@ body > footer > div > div:nth-child(3) > strong > div ul li {
   }
 }
 
-
-
 /* RESPONSIVE */
 @media (max-width: 1390px) {
   .forma-parte img {
@@ -711,12 +713,20 @@ body > footer > div > div:nth-child(3) > strong > div ul li {
 }
 
 @media (max-width: 991px) {
-  .section-objetivos .card-body,
+  .section-objetivos .card-body{
+    width: 70%;
+  }
+  .img-principal{
+    width: 100%; 
+  }
   .text-container-w{
     width: 100%;
+  } 
 
+  .section-objetivos .card {
+    height: 21rem;
   }
-
+  
   .navbar-toggler {
     background-color: var(--main-color);
     height: 40px;
@@ -742,9 +752,7 @@ body > footer > div > div:nth-child(3) > strong > div ul li {
   .footer .container .footer-image-container,
   .forma-parte img,
   .dip-cert .container .dip-cert-visible,
-  .cont-img-principal,
-  .red-gum,
-  .woman-reading,
+  /* .woman-reading, */
   .rotate-rec,
   .fono-logo {
     display: none;
@@ -753,17 +761,25 @@ body > footer > div > div:nth-child(3) > strong > div ul li {
   .componentes .container .row strong {
     font-size: 16px;
   }
+  
+  .red-gum {
+    top: 10%;
+  }
+
+  .info-bg .container{
+    margin-top: 140px;
+  }
 
   p {
-    text-align: center;
     padding: 0;
     margin: 0;
     width: 100% !important;
   }
 
   .titulo {
-    font-size: 1.9rem !important;
-    text-align: center;
+    font-size: 4.9rem !important;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
     color: var(--main-color);
     margin-bottom: 2rem;
     font-weight: bold;
