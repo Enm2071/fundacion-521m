@@ -114,7 +114,7 @@ a{
 }
 
 .img-principal {
-  width: 855px;
+  width: 507px;
   animation: apareceDerecha_01 2.5s ease;  
 }
 
@@ -251,6 +251,9 @@ a{
   position: absolute;
   z-index: -1;
   border-radius: 50%;
+}
+.home-text .img-fluid{
+  width: 60%  ;
 }
 
 .features .features-item .icon {
@@ -694,8 +697,27 @@ body > footer > div > div:nth-child(3) > strong > div ul li {
 }
 
 @media (max-width: 991px) {
+
+  .home-text .img-fluid{
+    width: 80%  ;
+    position: relative;
+    left: 15%;
+    top: 40px;
+  }
+
+  .img-principal{
+    position: relative;
+    top: 46px;
+  }
+
+  .mt-3 {
+    position: relative;
+    top: 40px;
+  }
+
+
   .home {
-    height: 67vh;
+    height: 87vh;
   }
 
   .section-objetivos .card-body{
