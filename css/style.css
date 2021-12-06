@@ -715,6 +715,13 @@ body > footer > div > div:nth-child(3) > strong > div ul li {
     opacity: 0px;
   }
 }
+.card-img-top{
+  margin: 0;
+}
+
+p > strong {
+  text-shadow: -1px 1px 2px rgba(25,71,186)
+}
 
 /* RESPONSIVE */
 
@@ -731,6 +738,9 @@ body > footer > div > div:nth-child(3) > strong > div ul li {
 }
 
 @media (max-width: 991px) {
+  li{
+    margin-bottom: 0.5rem;
+  }
   .desktop-only {
     display: none;
   }
