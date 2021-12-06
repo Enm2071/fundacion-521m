@@ -760,7 +760,7 @@ p > strong {
   .home-text .img-fluid {
     width: 80%;
     position: relative;
-    left: 15%;
+    left: 0%;
     top: 40px;
   }
 
